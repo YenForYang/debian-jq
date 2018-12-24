@@ -1,0 +1,3 @@
+debian/tmp/usr/include/jq.h
+debian/tmp/usr/include/jv.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libjq.so

@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Mon, 30 Jan 2017 12:41:39 +0800
+Source: jq
+Binary: jq libjq1 libjq-dev
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.5+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Changed-By: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Description:
+ jq         - lightweight and flexible command-line JSON processor
+ libjq-dev  - lightweight and flexible command-line JSON processor - developmen
+ libjq1     - lightweight and flexible command-line JSON processor - shared lib
+Closes: 852280
+Changes:
+ jq (1.5+dfsg-2) unstable; urgency=medium
+ .
+   * Change Maintainer to ChangZhuo Chen. (Closes: #852280)
+   * Bump Standards-Version to 3.9.8.
+   * Bump compat to 10.
+   * Update Vcs-* fields.
+Checksums-Sha1:
+ 3f3413bd3e136a7881c2646f648dbfaba2040249 9996 jq-dbgsym_1.5+dfsg-2_amd64.deb
+ e208ed68030619f066e9d7ac7f8f6a10eb0d00cd 7709 jq_1.5+dfsg-2_amd64.buildinfo
+ d277b7c6cba1b0fec06ff2f83a182f898b646130 63340 jq_1.5+dfsg-2_amd64.deb
+ d9806d33a19538f3dc4a6514c639b265d2308448 24088 libjq-dev_1.5+dfsg-2_amd64.deb
+ 1524c54a00604e5921a014725a7d6323f38a90d2 381344 libjq1-dbgsym_1.5+dfsg-2_amd64.deb
+ 86181fa4de3b3b777404fe872fec1899c66428df 451796 libjq1_1.5+dfsg-2_amd64.deb
+Checksums-Sha256:
+ cdfe3265e76c4b656dea7bc58294df31a2f947fede195b414018ff0233edc703 9996 jq-dbgsym_1.5+dfsg-2_amd64.deb
+ 0a6f976e925ac25bba177489cc01ed274a589ce4baf24760bb0db8d3b73d3dcc 7709 jq_1.5+dfsg-2_amd64.buildinfo
+ 154b7746aca4cab3f773fc762ff8829651737ea333ee1fb9b4ed647aab2fa3c5 63340 jq_1.5+dfsg-2_amd64.deb
+ 6b547863896e0aa4b6f04ecea420b7aa622af664a8784b24cdf3c2744ccb9135 24088 libjq-dev_1.5+dfsg-2_amd64.deb
+ 02034344951c8adaf2290ef9ca7b5e480a4660a3f30c7f82c64739c7f3482cb5 381344 libjq1-dbgsym_1.5+dfsg-2_amd64.deb
+ 566a2093425f247f69c4f0cd837eb697f25485ad3478bd8a4cfbf3001fb4744b 451796 libjq1_1.5+dfsg-2_amd64.deb
+Files:
+ f58790382f5a0940bb45db391b3e0ea1 9996 debug optional jq-dbgsym_1.5+dfsg-2_amd64.deb
+ 27492c3382aa470fe99102fa0796adf6 7709 utils optional jq_1.5+dfsg-2_amd64.buildinfo
+ 1cc1eea1f3144a5c555f08d8c15e96a3 63340 utils optional jq_1.5+dfsg-2_amd64.deb
+ 7f7d88d04bec4ebd956f3807d2a5fcd8 24088 libdevel optional libjq-dev_1.5+dfsg-2_amd64.deb
+ e6637a4d18666c5cff089ed1feea2117 381344 debug optional libjq1-dbgsym_1.5+dfsg-2_amd64.deb
+ d96179ba01bbaa9fa30928acd34f396f 451796 utils optional libjq1_1.5+dfsg-2_amd64.deb

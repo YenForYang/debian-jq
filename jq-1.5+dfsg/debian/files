@@ -1,0 +1,6 @@
+jq-dbgsym_1.5+dfsg-2_amd64.deb debug optional automatic=yes
+jq_1.5+dfsg-2_amd64.buildinfo utils optional
+jq_1.5+dfsg-2_amd64.deb utils optional
+libjq-dev_1.5+dfsg-2_amd64.deb libdevel optional
+libjq1-dbgsym_1.5+dfsg-2_amd64.deb debug optional automatic=yes
+libjq1_1.5+dfsg-2_amd64.deb utils optional

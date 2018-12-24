@@ -1,0 +1,13 @@
+Package: libjq1-dbgsym
+Source: jq
+Version: 1.5+dfsg-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Installed-Size: 432
+Depends: libjq1 (= 1.5+dfsg-2)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libjq1
+Build-Ids: 67621c032a120f51ae62c27d5ac49dad5fa82159
